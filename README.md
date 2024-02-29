@@ -111,7 +111,12 @@ services:
       context: .
       dockerfile: web.dockerfile
     environment:
-      - ENV=lab
+      - ENV=lab<img width="1440" alt="Снимок экрана 2024-02-29 в 15 53 02" src="https://github.com/minobol/g/assets/120034142/f19f81f4-ddaf-4b57-b96f-e515a6512d2f">
+<img width="1440" alt="Снимок экрана 2024-02-29 в 16 04 25" src="https://github.com/minobol/g/assets/120034142/46889f94-6ce1-4237-86c8-5bed175a3e5b"><img width="1440" alt="Снимок экрана 2024-02-29 в 16 04 40" src="https://github.com/minobol/g/assets/120034142/63f492dd-b222-4f9b-afb3-81ea8fb3e7d9">
+<img width="1440" alt="Снимок экрана 2024-02-29 в 16 05 13" src="https://github.com/minobol/g/assets/120034142/2cb7f490-e0ee-4a70-82ea-e9d32d49e13f">
+<img width="1440" alt="Снимок экрана 2024-02-29 в 16 44 20" src="https://github.com/minobol/g/assets/120034142/64388fa8-e635-4f59-89c3-cb0a436c0e4b">
+
+
   db:
     build:
       context: .
@@ -121,6 +126,7 @@ services:
 
 
 3) Для проверки и зафиксирования результатов выполнения задания необходимо сохранить файлы docker-compose.dev.yml, docker-compose.lab.yml, логи работы контейнеров, историю выполнения команд и скриншоты, демонстрирующие работу приложения в окружениях lab и dev.
+
 ![2_5](homework/2_5.JPG)
 ![2_6](homework/2_6.JPG)
 ![2_7](homework/2_7.JPG)
